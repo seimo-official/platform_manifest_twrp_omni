@@ -52,6 +52,11 @@ To initialize a shallow clone, which will save even more space, use a command li
 
     repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
 
+Then to pach:
+
+    cd build/
+    patch -p1 < ../patch-manifest.diff
+
 Then to sync up:
 
     repo sync
