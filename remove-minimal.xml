@@ -261,7 +261,7 @@
     <remove-project name="platform/packages/apps/SpareParts"/>
     <remove-project name="platform/packages/apps/StorageManager"/>
     <!--<remove-project name="android_packages_apps_Tag"/>-->
-    <remove-project name="platform/packages/apps/Terminal"/>
+    <!-- <remove-project name="platform/packages/apps/Terminal"/> -->
     <remove-project name="platform/packages/apps/Test/connectivity"/>
     <remove-project name="platform/packages/apps/TimeZoneData"/>
     <remove-project name="platform/packages/apps/TimeZoneUpdater"/>
