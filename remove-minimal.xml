@@ -429,8 +429,8 @@
 
 
     <!-- Remove from omni-caf.xml (forked CAF) -->
-    <remove-project name="android_external_libnetfilter_conntrack"/>
-    <remove-project name="android_external_libnfnetlink"/>
+    <!-- <remove-project name="android_external_libnetfilter_conntrack"/> -->
+    <!-- <remove-project name="android_external_libnfnetlink"/> -->
     <remove-project name="android_hardware_ril"/>
     <remove-project name="android_vendor_codeaurora_telephony"/>
 
