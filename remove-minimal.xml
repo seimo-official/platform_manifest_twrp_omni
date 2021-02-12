@@ -422,7 +422,7 @@
     <remove-project name="android_packages_services_Telecomm"/>
     <remove-project name="android_packages_services_Telephony"/>
 
-    <remove-project name="android_system_bpf"/>
+    <!-- <remove-project name="android_system_bpf"/> -->
     <remove-project name="android_system_bt"/>
     <remove-project name="android_system_nfc"/>
     <remove-project name="android_system_update_engine"/>
