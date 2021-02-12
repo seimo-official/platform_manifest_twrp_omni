@@ -380,7 +380,7 @@
     <!-- Remove from omni-aosp.xml (forked AOSP) -->
     <!--<remove-project name="android_development"/>-->
 
-    <remove-project name="android_external_aac"/>
+    <!-- <remove-project name="android_external_aac"/> -->
 
     <remove-project name="android_frameworks_opt_net_ims"/>
     <remove-project name="android_frameworks_opt_net_wifi"/>
