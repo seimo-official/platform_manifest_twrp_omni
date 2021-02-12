@@ -131,7 +131,7 @@
     <remove-project name="platform/external/ltp"/>
     <remove-project name="platform/external/markdown"/>
     <remove-project name="platform/external/mesa3d"/>
-    <remove-project name="platform/external/Microsoft-GSL"/>
+    <!-- <remove-project name="platform/external/Microsoft-GSL"/> -->
     <!--<remove-project name="platform/external/mmc-utils"/>-->
     <remove-project name="platform/external/mockftpserver"/>
     <remove-project name="platform/external/mockito"/>
