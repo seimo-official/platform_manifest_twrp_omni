@@ -24,7 +24,7 @@
     <remove-project name="platform/external/apache-harmony"/>
     <remove-project name="platform/external/apache-http"/>
     <remove-project name="platform/external/apache-xml"/>
-    <remove-project name="platform/external/archive-patcher"/>
+    <!-- <remove-project name="platform/external/archive-patcher"/> -->
     <remove-project name="platform/external/arm-neon-tests"/>
     <remove-project name="platform/external/autotest"/>
     <!--<remove-project name="platform/external/bart"/>-->
