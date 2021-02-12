@@ -216,7 +216,7 @@
     <remove-project name="platform/frameworks/opt/calendar"/>
     <!--<remove-project name="platform/frameworks/opt/chips"/>-->
     <remove-project name="platform/frameworks/opt/colorpicker"/>
-    <remove-project name="platform/frameworks/opt/datetimepicker"/>
+    <!-- <remove-project name="platform/frameworks/opt/datetimepicker"/> -->
     <!--<remove-project name="platform/frameworks/opt/inputconnectioncommon"/>-->
     <!--<remove-project name="platform/frameworks/opt/inputmethodcommon"/>-->
     <remove-project name="platform/frameworks/opt/net/ethernet"/>
