@@ -1,5 +1,7 @@
-## Submitting Patches ##
-------------------
+# Submitting Patches
+
+---
+
 Our project is open source, and patches are always welcome!
 You can send patches by using:
 
@@ -7,8 +9,10 @@ Pull request, right here on git.
 
 Contact @lj50036 on irc, Network: freenode, Channel: #twrp
 
-## Maintaining Authorship ##
-----------------------
+## Maintaining Authorship
+
+---
+
 Maintaining authorship is a very important aspect of working with Open Source code. If you wish to submit a patch/fix
 from anywhere else (another ROM, project, etc.), it is imperative that you maintain the ownership of the person whose
 work you are seeking to include. Doing so will ensure that credit is given where it is deserved, and the [principles of open source](http://opensource.org/docs/osd)
@@ -37,29 +41,39 @@ git commit --author="Author <email@address.com>" -m "[commit message]"
 This saves time, and when part of your normal routine, prevents the infamous "ermahgerd I forgot to add authorship -
 let me fix it because I was found out!" message.
 
+## Getting Started
 
-## Getting Started ##
----------------
+---
 
 To get started with OMNI sources to build TWRP, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
 
-    repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
+```bash
+repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-11.0
+```
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 
-    repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
+```bash
+repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-11.0
+```
 
 Then to sync up:
 
-    repo sync
+```bash
+repo sync
+```
 
 Then to build for a device with recovery partition:
 
-     cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_<device>-eng; mka recoveryimage
+```bash
+cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_<device>-eng; mka recoveryimage
+```
 
 Then to build for a device without recovery partition:
 
-     cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_<device>-eng; mka bootimage
+```bash
+cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_<device>-eng; mka bootimage
+```
