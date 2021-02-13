@@ -345,7 +345,7 @@
 
     <!-- Remove platform/test/vts to avoid the test errors and more dependencies -->
     <remove-project name="platform/test/framework"/>
-    <remove-project name="platform/test/suite_harness"/>
+    <!-- <remove-project name="platform/test/suite_harness"/> -->
     <!-- <remove-project name="platform/test/vti/alert"/> -->
     <remove-project name="platform/test/vti/dashboard"/>
     <remove-project name="platform/test/vti/fuzz_test_serving"/>
