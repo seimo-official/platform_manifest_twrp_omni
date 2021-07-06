@@ -332,11 +332,11 @@
     <remove-project name="platform/test/vti/fuzz_test_serving"/>
     <remove-project name="platform/test/vti/test_serving"/>
     <!-- <remove-project name="platform/test/vts"/> -->
-    <remove-project name="platform/test/vts-testcase/fuzz"/>
+    <!-- <remove-project name="platform/test/vts-testcase/fuzz"/>
     <remove-project name="platform/test/vts-testcase/hal"/>
     <remove-project name="platform/test/vts-testcase/kernel"/>
     <remove-project name="platform/test/vts-testcase/security"/>
-    <remove-project name="platform/test/vts-testcase/vndk"/>
+    <remove-project name="platform/test/vts-testcase/vndk"/> -->
 
     <remove-project name="platform/tools/adt/idea"/>
     <remove-project name="platform/tools/apksig"/>
