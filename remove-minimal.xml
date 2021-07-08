@@ -18,7 +18,7 @@
     <remove-project name="device/linaro/dragonboard-kernel" />
     <remove-project name="device/mediatek/wembley-sepolicy" />
 
-    <!-- <remove-project name="platform/cts" /> -->
+    <remove-project name="platform/cts" />
 
     <remove-project name="platform/external/adt-infra"/>
     <remove-project name="platform/external/android-clat"/>
@@ -326,17 +326,17 @@
     <remove-project name="platform/test/framework"/>
     <remove-project name="platform/test/mlts/benchmark" />
     <remove-project name="platform/test/mlts/models" />
-    <!-- <remove-project name="platform/test/mts" /> -->
+    <remove-project name="platform/test/mts" />
     <remove-project name="platform/test/suite_harness"/>
     <remove-project name="platform/test/vti/dashboard"/>
     <remove-project name="platform/test/vti/fuzz_test_serving"/>
     <remove-project name="platform/test/vti/test_serving"/>
     <!-- <remove-project name="platform/test/vts"/> -->
-    <!-- <remove-project name="platform/test/vts-testcase/fuzz"/>
+    <remove-project name="platform/test/vts-testcase/fuzz"/>
     <remove-project name="platform/test/vts-testcase/hal"/>
     <remove-project name="platform/test/vts-testcase/kernel"/>
     <remove-project name="platform/test/vts-testcase/security"/>
-    <remove-project name="platform/test/vts-testcase/vndk"/> -->
+    <remove-project name="platform/test/vts-testcase/vndk"/>
 
     <remove-project name="platform/tools/adt/idea"/>
     <remove-project name="platform/tools/apksig"/>
