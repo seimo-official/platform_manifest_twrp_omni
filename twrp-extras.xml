@@ -24,7 +24,7 @@
     <project name="vendor/recovery" path="vendor/recovery" remote="fox" revision="fox_10.0" />
 
     <remove-project name="android_build" />
-    <project path="build/make" name="android_build" remote="TeamWin" revision="android-11" groups="pdk" >
+    <project path="build/make" name="android_build" remote="TeamWin" revision="android-10" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
